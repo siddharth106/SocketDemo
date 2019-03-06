@@ -85,7 +85,7 @@ var AppComponent = /** @class */ (function () {
         this.connect();
     };
     AppComponent.prototype.connect = function () {
-        var socket = new sockjs_client__WEBPACK_IMPORTED_MODULE_3__('http://localhost:8029/gkz-stomp-endpoint');
+        var socket = new sockjs_client__WEBPACK_IMPORTED_MODULE_3__('http://13.234.74.67:8029/gkz-stomp-endpoint');
         //,null,{transports: ['websocket']}
         this.stompClient = stompjs__WEBPACK_IMPORTED_MODULE_2__["over"](socket);
         //Stomp.overWS('ws://localhost:61614/stomp');
@@ -231,7 +231,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/user/MashupRepo/boeing-wave3-mashup/socktest/src/main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! /home/user/SocketDemo/boeing-wave3-mashup/socktest/src/main.ts */"./src/main.ts");
 
 
 /***/ })

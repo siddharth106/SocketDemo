@@ -29,7 +29,7 @@ export class AppComponent{
     this.connect();
   }
   connect() {
-    const socket = new SockJS('http://localhost:8029/gkz-stomp-endpoint');
+    const socket = new SockJS('http://13.234.74.67:8029/gkz-stomp-endpoint');
     //,null,{transports: ['websocket']}
     this.stompClient = Stomp.over(socket);
         //Stomp.overWS('ws://localhost:61614/stomp');
